@@ -24,9 +24,9 @@ public class DbUtils {
 
         //todo#1-1 {ip},{database},{username},{password} 설정
 
-        basicDataSource.setUrl("jdbc:mysql://133.186.241.167:3306/shopping_mall");
-        basicDataSource.setUsername("nhn_academy_144");
-        basicDataSource.setPassword("bD5fsgvn!");
+        basicDataSource.setUrl("jdbc:mysql://");
+        basicDataSource.setUsername("");
+        basicDataSource.setPassword("");
 
         //todo#1-2 initialSize, maxTotal, maxIdle, minIdle 은 모두 5로 설정합니다.
         basicDataSource.setInitialSize(5);
